@@ -1,0 +1,9 @@
+docker run -i -t debian /bin/bash
+apt update
+apt update -y
+apt upgrade -y
+apt install vim
+apt install git -y
+apt install gcc -y
+apt install uuid-dev
+apt install  libacl1-dev
